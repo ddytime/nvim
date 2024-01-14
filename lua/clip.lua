@@ -1,3 +1,4 @@
+-- wsl和windows相互复制
 if vim.fn.has('wsl') then
   vim.cmd [[
   augroup Yank
